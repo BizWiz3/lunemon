@@ -1,0 +1,15 @@
+name = "bizwiz03/lunemon"
+version = "0.1.0"
+description = "A library for auto reloading the project after every changes"
+authors = ["@BizWiz03"]
+license = "MIT"
+
+[target]
+environment = "lune"
+bin = "src/lunemon.luau"
+
+[indices]
+default = "https://github.com/pesde-pkg/index"
+
+[dependencies]
+hello = { name = "pesde/hello", version = "^1.0.2" }
