@@ -6,7 +6,7 @@ authors = ["BizWiz3"]
 repository = "https://github.com/BizWiz3/lunemon"
 private = false
 
-includes = ["LICENSE", "README.md", "lunemon.luau", "pesde.toml"]
+includes = ["LICENSE", "README.md", "src/lunemon.luau", "pesde.toml"]
 
 [target]
 environment = "lune"
