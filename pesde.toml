@@ -1,12 +1,16 @@
-name = "bizwiz03/lunemon"
+name = "bizwiz3/lunemon"
 version = "0.1.0"
-description = "A library for auto reloading the project after every changes"
-authors = ["@BizWiz03"]
+description = "A hot-reloading development tool for Lune, inspired by Nodemon."
 license = "MIT"
+authors = ["BizWiz3"]
+repository = "https://github.com/BizWiz3/lunemon"
+private = false
 
 [target]
 environment = "lune"
 bin = "src/lunemon.luau"
+
+includes = ["LICENSE", "README.md", "lunemon.luau", "pesde.toml"]
 
 [indices]
 default = "https://github.com/pesde-pkg/index"
