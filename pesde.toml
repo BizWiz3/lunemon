@@ -1,5 +1,5 @@
 name = "bizwiz3/lunemon"
-version = "0.1.0"
+version = "0.1.1"
 description = "A hot-reloading development tool for Lune, inspired by Nodemon."
 license = "MIT"
 authors = ["BizWiz3"]
